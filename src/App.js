@@ -1,16 +1,21 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
+import Header from './components/Header/Header';
+import Presentation from './components/Presentation/Presentation';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-
-      </header>
+      
+      <Presentation />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }

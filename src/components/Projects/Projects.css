@@ -1,0 +1,9 @@
+#projects {
+    padding: 40px 0;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
