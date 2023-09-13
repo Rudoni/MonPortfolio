@@ -2,6 +2,11 @@
 #contact {
     padding: 40px 0;
     background-color: #f4f4f4;
+    min-height: 100vh;  /* 100% de la hauteur de la fenêtre de visualisation */
+    width: 100%;  /* 100% de la largeur */
+    display: flex;
+    align-items: center;  /* Centrage vertical des éléments internes */
+    justify-content: center;  /* Centrage horizontal des éléments internes */
 }
 
 #contact form {

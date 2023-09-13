@@ -1,0 +1,35 @@
+/* Header.css */
+.main-header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #F2F2F2;
+
+}
+
+.main-header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.category-item {
+    margin: 0 10px; /* Ajustez ces valeurs pour contrôler l'espacement entre les catégories */
+}
+
+.main-header nav a {
+    color: #593312;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.2s ease, font-size 0.2s ease; /* Ici, nous ajustons la durée de transition à 0.5s */
+}
+
+
+.main-header nav a:hover {
+    font-size: 17px; /* Taille au survol, ajustez selon vos préférences */
+    color: #8C633F; /* Couleur au survol (ici orange), ajustez selon vos préférences */
+}

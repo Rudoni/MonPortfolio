@@ -1,4 +1,10 @@
 #about {
     padding: 40px 0;
     background-color: #e6e6e6;
+    min-height: 100vh;  /* 100% de la hauteur de la fenêtre de visualisation */
+    width: 100%;  /* 100% de la largeur */
+    display: flex;
+    align-items: center;  /* Centrage vertical des éléments internes */
+    justify-content: center;  /* Centrage horizontal des éléments internes */
 }
+

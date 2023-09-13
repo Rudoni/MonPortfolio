@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -12,6 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Et tout autre style que vous souhaitez définir avec cette police */
+
 
 .App-header {
   background-color: #282c34;
