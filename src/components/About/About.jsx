@@ -4,10 +4,27 @@ import './About.css';
 
 const About = () => {
     return (
-        <section id="about">
-            <h2>À Propos de Moi</h2>
-            <p>Je suis développeur depuis X années, spécialisé dans [vos spécialités, par ex. "le développement frontend avec React"]. J'ai travaillé sur de nombreux projets qui m'ont permis d'acquérir une expertise dans [autres compétences ou domaines].</p>
-        </section>
+        <div className="about-container">
+            <div className="about-section">
+                <h2>Études</h2>
+                <p>
+                    [Votre texte ici... par exemple: "Actuellement étudiant en informatique à [Nom de l'institution], je me spécialise dans ..."]
+                </p>
+            </div>
+            <div className="about-section">
+                <h2>Vie Personnelle</h2>
+                <p>
+                    [Votre texte ici... par exemple: "En dehors de mes études, je suis passionné par ..."]
+                </p>
+            </div>
+            <div className="about-section">
+                <h2>Technologies</h2>
+                <p>
+                    [Votre texte ici... par exemple: "Je maîtrise plusieurs technologies, notamment React, Node.js..."]
+                </p>
+            </div>
+        </div>
+
     );
 }
 
