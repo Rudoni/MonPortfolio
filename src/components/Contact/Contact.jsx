@@ -5,22 +5,15 @@ import './Contact.css';
 const Contact = () => {
     return (
         <section id="contact">
-            <h2>Contactez-moi</h2>
-            <form>
-                <div>
-                    <label htmlFor="name">Nom:</label>
-                    <input type="text" id="name" name="name" required />
+            <div className="contact-container">
+                <h2>Contact</h2>
+                <div className="mail-container">
+                    <a href="mailto:antoninrudoni@gmail.com" className="mail-button">antoninrudoni@gmail.com</a>
                 </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" name="email" required />
+                <div className="phone-container">
+                    <a href="tel:+33787642623" className="phone-button">+33 7 87 64 26 23</a>
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit">Envoyer</button>
-            </form>
+            </div>
         </section>
     );
 }

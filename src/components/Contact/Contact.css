@@ -2,28 +2,43 @@ html {
     scroll-behavior: smooth;
  }
  
+ #contact {
+    width: 100vw; /* 100% de la largeur du viewport */
+    height: 40vh; /* 100% de la hauteur du viewport */
+    display: flex; /* Activation de flexbox */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    background-color: #F2F2F2;
+}
 
-
-#contact {
-    padding: 40px 0;
-    background-color: #f4f4f4;
-    min-height: 100vh;  /* 100% de la hauteur de la fenêtre de visualisation */
-    width: 100%;  /* 100% de la largeur */
+.contact-container {
     display: flex;
-    align-items: center;  /* Centrage vertical des éléments internes */
-    justify-content: center;  /* Centrage horizontal des éléments internes */
+    flex-direction: column; /* Organisez les éléments les uns sous les autres */
+    justify-content: center; /* Centrage vertical */
+    align-items: center; /* Centrage horizontal */
+    gap: 1rem; /* Espacement entre les éléments, comme les boutons mail et téléphone */
 }
 
-#contact form {
-    max-width: 500px;
-    margin: 0 auto;
+
+h2{
+    color: #593312;
+    
 }
 
-#contact div {
-    margin-bottom: 20px;
+.mail-button, .phone-button {
+    text-decoration: none; 
+    color: #8C633F; 
 }
 
-#contact button {
-    display: block;
-    margin: 0 auto;
+.mail-button:hover {
+    text-decoration: none; 
+    color: #593312; 
 }
+
+.phone-button:hover {
+    text-decoration: none; 
+    color: #593312; 
+}
+
+
+

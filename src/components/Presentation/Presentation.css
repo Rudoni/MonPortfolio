@@ -32,6 +32,17 @@
     font-size: 110%;
 }
 
+.image-droite {
+    position: absolute;
+    right: 15vb;
+    top: 50%;
+    transform: translateY(-50%);  /* Pour centrer verticalement par rapport à sa position actuelle */
+    width: 50vb;  /* Ou la taille que vous voulez */
+    height: auto;
+    filter: drop-shadow(1vb 1vb 2vb #D9BC9A);
+}
+
+
 @media (max-width: 768px) { /* Ajustez cette valeur selon vos besoins */
     .description-text {
         width: 100%;
