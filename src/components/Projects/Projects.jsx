@@ -5,15 +5,27 @@ import './Projects.css';
 const Projects = () => {
     return (
         <section id="projects">
-            <h2>Mes Projets</h2>
-            <div>
-                {/* Exemple d'un projet */}
-                <div className="project-card">
-                    <h3>Titre du Projet</h3>
-                    <p>Description courte du projet.</p>
-                </div>
-                {/* Vous pouvez ajouter d'autres projets de la même manière */}
+            <div className="project-container">
+            <div className="project-section">
+                <h1>Jeux d'arcade <i class="fab fa-java"></i></h1>
+                <p>
+                
+                </p>
             </div>
+            <div className="project-section">
+                <h1>Développement Unity pour Hololens <i class="fa-brands fa-unity"></i></h1>
+                <p>
+                
+                </p>
+            </div>
+            <div className="project-section">
+                <h1>Portfolio <i class="fab fa-react"></i></h1>
+                <p>
+                    
+                </p>
+
+            </div>
+        </div>
         </section>
     );
 }
