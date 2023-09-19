@@ -1,30 +1,30 @@
 .project-container {
-    width: 100vw; /* Largeur totale de la fenêtre */
-    height: 90vh; /* Hauteur totale de la fenêtre */
+    width: 100vw; 
+    height: 90vh; 
     text-align: left; 
     padding-top: 20px; 
     padding-left: 1%; 
     flex-direction: column;
-    justify-content: center; /* Ceci centrera le contenu verticalement */
+    justify-content: center; 
     background-color: #F2F2F2;
 }
 
 .project-image {
-    cursor: pointer; /* Affiche une main lorsque vous passez la souris sur l'image */
-    transition: transform 0.3s; /* Animation douce lors du survol */
-    width: 30%;   /* Fixe la largeur à 200 pixels */
-    height: 90%; /* Fixe la hauteur à 150 pixels */
-    object-fit: cover; /* S'assure que l'image couvre entièrement l'espace sans déformation */
+    cursor: pointer;
+    transition: transform 0.3s; 
+    width: 30%;   
+    height: 90%; 
+    object-fit: cover; 
     cursor: pointer;
     transition: transform 0.3s;
     box-shadow: 0 5px 9px #593312;
     flex: 1;
     margin: 0 1%;
-    border-radius: 12px; /* Pour donner des coins arrondis */
+    border-radius: 12px; 
 
 }
 
 .project-image:hover {
-    transform: translateY(-10px); /* Un léger décalage vers le haut lors du survol */
+    transform: translateY(-10px); 
 }
 

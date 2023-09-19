@@ -17,7 +17,7 @@
 }
 
 .category-item {
-    margin: 0 10px; /* Ajustez ces valeurs pour contrôler l'espacement entre les catégories */
+    margin: 0 10px; 
 }
 
 .main-header nav a {
@@ -25,11 +25,11 @@
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-    transition: color 0.2s ease, font-size 0.2s ease; /* Ici, nous ajustons la durée de transition à 0.5s */
+    transition: color 0.2s ease, font-size 0.2s ease; 
 }
 
 
 .main-header nav a:hover {
-    font-size: 17px; /* Taille au survol, ajustez selon vos préférences */
-    color: #8C633F; /* Couleur au survol (ici orange), ajustez selon vos préférences */
+    font-size: 17px; 
+    color: #8C633F; 
 }

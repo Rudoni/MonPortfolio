@@ -3,20 +3,20 @@ html {
  }
  
  #contact {
-    width: 100vw; /* 100% de la largeur du viewport */
-    height: 40vh; /* 100% de la hauteur du viewport */
-    display: flex; /* Activation de flexbox */
-    justify-content: center; /* Centrage horizontal */
-    align-items: center; /* Centrage vertical */
+    width: 100vw;
+    height: 40vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     background-color: #F2F2F2;
 }
 
 .contact-container {
     display: flex;
-    flex-direction: column; /* Organisez les éléments les uns sous les autres */
-    justify-content: center; /* Centrage vertical */
-    align-items: center; /* Centrage horizontal */
-    gap: 1rem; /* Espacement entre les éléments, comme les boutons mail et téléphone */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem; 
 }
 
 

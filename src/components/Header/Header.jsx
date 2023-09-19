@@ -19,7 +19,6 @@ const Header = () => {
         window.addEventListener('scroll', handleScroll);
 
         return () => {
-            // Suppression de l'écouteur d'événement lors du nettoyage
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);

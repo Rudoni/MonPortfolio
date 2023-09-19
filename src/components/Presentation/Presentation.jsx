@@ -1,5 +1,5 @@
 import React from 'react';
-import './Presentation.css'; // Assurez-vous d'ajouter ce fichier CSS
+import './Presentation.css'; 
 
 const Presentation = () => {
 

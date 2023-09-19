@@ -3,13 +3,13 @@
 @import 'tailwindcss/utilities';
 
 .presentation-container {
-    width: 100vw; /* Largeur totale de la fenêtre */
-    height: 100vh; /* Hauteur totale de la fenêtre */
+    width: 100vw; 
+    height: 100vh; 
     text-align: left; 
     padding-top: 20px; 
     padding-left: 5%; 
     flex-direction: column;
-    justify-content: center; /* Ceci centrera le contenu verticalement */
+    justify-content: center; 
     background-color: #F2F2F2;
 }
 
@@ -36,14 +36,14 @@
     position: absolute;
     right: 15vb;
     top: 50%;
-    transform: translateY(-50%);  /* Pour centrer verticalement par rapport à sa position actuelle */
-    width: 50vb;  /* Ou la taille que vous voulez */
+    transform: translateY(-50%);  
+    width: 50vb;  
     height: auto;
     filter: drop-shadow(1vb 1vb 2vb #D9BC9A);
 }
 
 
-@media (max-width: 768px) { /* Ajustez cette valeur selon vos besoins */
+@media (max-width: 768px) { 
     .description-text {
         width: 100%;
     }
@@ -71,7 +71,7 @@
 .description-target {
     margin-top: 20px;
     font-size: 1.1em;
-    color: #555; /* Ajustez la couleur si nécessaire */
+    color: #555; 
 }
 
 
@@ -80,15 +80,14 @@
     margin-top: 5%;
     padding: 2% 5%;
     color: #F2F2F2;
-    background-color: #593312; /* Vous pouvez changer cette couleur */
+    background-color: #593312;
     border: none;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
     font-size: 95%;
-    border: 2px solid #8C633F; /* bordure bleu foncé */
-    transition: color 0.2s ease, font-size 0.2s ease; /* Ici, nous ajustons la durée de transition à 0.5s */
-    /* Pour améliorer l'apparence sur les écrans tactiles */
+    border: 2px solid #8C633F; 
+    transition: color 0.2s ease, font-size 0.2s ease; 
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     
 }
