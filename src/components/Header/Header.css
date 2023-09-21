@@ -1,4 +1,7 @@
-/* Header.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .main-header {
     width: 100%;
     padding: 20px 0;
@@ -23,7 +26,8 @@
 .main-header nav a {
     color: #593312;
     text-decoration: none;
-    padding: 10px 15px;
+    font-size: 2vb;
+    padding: 1vb 1vb ;
     display: block;
     transition: color 0.2s ease, font-size 0.2s ease; 
 }
